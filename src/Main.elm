@@ -10,7 +10,10 @@ import Element.Font as Font
 
 main =
     Element.layout
-        [ Background.color white, width (px 900) ]
+        [ Background.color white
+        , width (px 900)
+        , paddingLeft gutter
+        ]
     <|
         column
             []
@@ -55,7 +58,7 @@ mainColumns { left, right } =
 
 
 gutter =
-    30
+    20
 
 
 
@@ -107,7 +110,7 @@ headerArea =
         ]
         [ elmlogo
         , newTabLink
-            [ padding 20
+            [ padding gutter
             , Font.bold
             , Font.size 18
             , Font.underline
@@ -136,7 +139,7 @@ overview =
         [ alignTop
         , alignLeft
         , spacingXY 4 200
-        , padding 20
+        , padding gutter
         , Background.color white
         , width (px 420)
         , height (px 200)
@@ -161,7 +164,7 @@ myParagraph =
         [ alignTop
         , alignLeft
         , spacingXY 4 200
-        , padding 20
+        , padding gutter
         , Background.color white
         , width (px 420)
         , height (px 100)
@@ -176,7 +179,7 @@ myParagraph =
 
 firstDropCap =
     paragraph
-        [ padding 20
+        [ padding gutter
         , alignTop
         ]
         [ el
@@ -200,7 +203,7 @@ firstDropCap =
 
 secondDropCap =
     paragraph
-        [ padding 20
+        [ padding gutter
         , alignTop
         ]
         [ el
