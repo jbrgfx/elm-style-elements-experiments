@@ -1,4 +1,6 @@
-# Elm project
+# style-elements experiment in Elm
+
+Exercise in upgrading 4.2.1 style-elements package in Elm to the new experimental package.
 
 This experiment is a refactoring exercise of [style-elements](http://package.elm-lang.org/packages/mdgriffith/style-elements/4.2.1/Style) for Elm, v4.2.1 to the next version of the package.
 Matthew Griffith is actively working on the next version.
