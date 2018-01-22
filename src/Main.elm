@@ -148,13 +148,13 @@ overview =
         ]
         [ paragraph
             []
-            [ text "This 2-column design is derived from a repo by " ]
+            [ text "This 2-column design was inspired by a repo maintained by " ]
         , newTabLink [ Font.underline, Font.bold ]
             { url = "https://github.com/opsb/cv-elm"
             , label = text "opsb/cv-elm"
             }
         , paragraph [ height (px 20) ] []
-        , paragraph [] [ text "Oliver Searle-Barnes, opsb, has an advanced demo of the stylish-elephants experimental packages. This example uses only a few of the available features that Oliver Searle-Barnes demonstrated. His work insprred this minor experiment." ]
+        , paragraph [] [ text "Oliver Searle-Barnes, opsb, has an advanced demo of the stylish-elephants experimental packages. The features inspired by opsb/cv are marked with comments in the source code. This example uses only a few of the available features that Oliver Searle-Barnes demonstrated. His work insprred this minor experiment." ]
         ]
 
 
@@ -203,7 +203,7 @@ firstDropCap =
 
 secondDropCap =
     paragraph
-        [ padding gutter
+        [ padding 40
         , alignTop
         ]
         [ el
@@ -219,9 +219,9 @@ secondDropCap =
         , paragraph
             [ width (px 300)
             , Font.color black
-            , Font.size 18
+            , Font.size 16
             ]
-            [ text "or the time being, the layout width is static. I will use responsive design elements as soon as they have been added to the experiment version." ]
+            [ text "or the time being, the layout width is static. I will add responsive design elements soon." ]
         ]
 
 
