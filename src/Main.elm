@@ -29,6 +29,10 @@ main =
             ]
 
 
+
+{- credit: https://github.com/opsb/cv-elm/blob/master/src/Main.elm -}
+
+
 mainColumns { left, right } =
     row
         [ borderBottom 1
@@ -46,19 +50,16 @@ mainColumns { left, right } =
         ]
 
 
+
+{- credit: https://github.com/opsb/cv-elm/blob/master/src/Atom.elm -}
+
+
 gutter =
     30
 
 
-colors =
-    { white = Color.white
-    , darkGrey = Color.grey
-    , black = Color.black
-    , lightGrey = Color.rgba 244 244 244 1
-    , lighterGrey = Color.rgba 140 140 140 1
-    , blue = Color.rgba 148 196 252 100
-    , transparent = Color.rgba 255 255 255 0
-    }
+
+{- credit: https://github.com/opsb/cv-elm/blob/master/src/Extra/Element.elm -}
 
 
 borderRight n =
@@ -69,6 +70,10 @@ borderBottom n =
     Border.widthEach { right = 0, left = 0, top = 0, bottom = n }
 
 
+
+{- credit: https://github.com/opsb/cv-elm/blob/master/src/Extra/Element.elm -}
+
+
 paddingRight n =
     paddingEach { right = n, left = 0, top = 0, bottom = 0 }
 
@@ -77,8 +82,16 @@ paddingTop pxs =
     paddingEach { bottom = 0, top = pxs, left = 0, right = 0 }
 
 
+
+{- credit: https://github.com/opsb/cv-elm/blob/master/src/Extra/Element.elm -}
+
+
 paddingBottom pxs =
     paddingEach { bottom = pxs, top = 0, left = 0, right = 0 }
+
+
+
+{- credit: https://github.com/opsb/cv-elm/blob/master/src/Extra/Element.elm -}
 
 
 paddingLeft n =
