@@ -10,7 +10,7 @@ import Element.Font as Font
 
 main =
     Element.layout
-        [ Background.color white ]
+        [ Background.color white, width (px 900) ]
     <|
         column
             []
@@ -212,13 +212,13 @@ secondDropCap =
             , Font.color darkBlue
             , Background.color white
             ]
-            (text "I")
+            (text "F")
         , paragraph
             [ width (px 300)
             , Font.color black
             , Font.size 18
             ]
-            [ text " will use responsive design elements as soon as they have been added to the experiment version." ]
+            [ text "or the time being, the layout width is static. I will use responsive design elements as soon as they have been added to the experiment version." ]
         ]
 
 
