@@ -139,50 +139,15 @@ overview =
     paragraph
         [ alignTop
         , alignLeft
-        , spacingXY 4 200
+        , paddingTop 20
         , padding gutter
         , Background.color white
         , width (px 420)
         , height (px 200)
-
-        -- , Font.size 16
-        -- , Font.color darkBlue
+        , Font.size 16
+        , Font.color darkBlue
         ]
-        [ paragraph
-            []
-            [ text "This 2-column design was inspired by a repo maintained by " ]
-        , newTabLink
-            [ Font.underline
-            , Font.bold
-            , Font.color darkBlue
-            , Font.size 16
-            ]
-            { url = "https://github.com/opsb/cv-elm"
-            , label = text "opsb/cv-elm"
-            }
-        , paragraph [ height (px 20) ] []
-        , paragraph [] [ text "Oliver Searle-Barnes, opsb, has an advanced demo of the stylish-elephants experimental packages. The features inspired by opsb/cv are marked with comments in the source code. This example uses only a few of the available features that Oliver Searle-Barnes demonstrated. His work insprred this minor experiment." ]
-        ]
-
-
-
--- myParagraph : Element msg
--- myParagraph =
---     paragraph
---         [ alignTop
---         , alignLeft
---         , spacingXY 4 200
---         , padding gutter
---         , Background.color white
---         , width (px 420)
---         , height (px 100)
---         , Font.size 16
---         , Font.color darkBlue
---         ]
---         [ text "A plain text element inside a paragraph"
---         , paragraph [ Font.bold ] [ text "Add a paragraph element assigning bold text" ]
---         , el [ Font.italic, alignRight ] (text "λ Add an 'el' with alignRight & italic assigned to text")
---         ]
+        [ text "This 2-column design was inspired by a repo maintained by Oliver Searle-Barnes, opsb. Oliver has an advanced demo of the stylish-elephants experimental packages. The features inspired by opsb/cv are marked with comments in the source code. This example uses only a few of the available features that Oliver Searle-Barnes demonstrated. His work insprred this minor experiment." ]
 
 
 firstDropCap =
