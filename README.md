@@ -6,7 +6,7 @@ This experiment is a refactoring exercise of [style-elements](http://package.elm
 Matthew Griffith is actively working on the next version.
 Version 3.0.2 of the experimental API, upon which this project depends, may be found at [stylish-elephants](http://package.elm-lang.org/packages/mdgriffith/stylish-elephants/3.0.2).
 
-The latest stylish-elephants may be (read at elm-package)[http://package.elm-lang.org/packages/mdgriffith/stylish-elephants/latest/].
+The latest stylish-elephants may be [read at elm-package](http://package.elm-lang.org/packages/mdgriffith/stylish-elephants/latest/).
 
 Based on questions by users on elm-slack and issues reported by users, I decided to abstract one of the tricks I have found useful in working with the new, unfinished package.
 
