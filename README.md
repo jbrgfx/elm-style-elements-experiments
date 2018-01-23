@@ -4,21 +4,13 @@ Exercise in upgrading 4.2.1 style-elements package in Elm to the new experimenta
 
 This experiment is a refactoring exercise of [style-elements](http://package.elm-lang.org/packages/mdgriffith/style-elements/4.2.1/Style) for Elm, v4.2.1 to the next version of the package.
 Matthew Griffith is actively working on the next version.
-Version 3.0.2 of the experimental API, upon which this project depends, may be found at [stylish-elephants](http://package.elm-lang.org/packages/mdgriffith/stylish-elephants/3.0.2).
-
+This project is now using the latest version of the experimental package -- that is, version 4.0.0.
 The latest stylish-elephants may be [read at elm-package](http://package.elm-lang.org/packages/mdgriffith/stylish-elephants/latest/).
 
-Based on questions by users on elm-slack and issues reported by users, I decided to abstract one of the tricks I have found useful in working with the new, unfinished package.
+The new version eliminates "StyleSheets" as they are known in the production package and moves all elements and styles into basic view functions inline.
+This revision of style-elements reduces pain points and speeds development (IMHO).
 
-This code uses a refactoring approach that has worked for me to upgrade 4.2.1 code to use the new version.
-
-The new version eliminates "StyleSheets" as they were known up to version 4.x and moves all elements and styles into basic view functions inline.
-
-What was a 'StyleSheet' definition in style-elements 4.2.1 can now be defined using the experimental package on a parent element and what were 'variations' on element may be defined on a child element.
-
-The DropCap paragraph element in this experiment, for example, is a child of an 'el' (the parent).
-
-This 2-column design is based on extensive work by Oliver Searle-Barnes, [opsb](https://github.com/opsb/cv-elm), who has published an advanced demo of the stylish-elephants experimental package. This example uses only a few of the available features that Oliver Searle-Barnes demonstrated, and even fewer of the package's features. His work inspired this minor experiment, but my hope is that by demonstrating one way of reworking 4.2.1 code to exercise the new package, others will get working with the new package easily and find that experiments are fun and enjoyable to work with.
+This 2-column design is based on extensive work by Oliver Searle-Barnes, [opsb](https://github.com/opsb/cv-elm), who has published an advanced demo of the stylish-elephants experimental package. This example uses only a few of the available features that Oliver Searle-Barnes demonstrated, and even fewer of the experimental package's features. Searle-Barnes' work inspired this minor experiment, but my hope is that by demonstrating one way of reworking 4.2.1 code to exercise the new package, others will get working with the new package easily and find that experiments are fun and enjoyable to work with.
 
 ## Getting started
 
