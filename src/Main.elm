@@ -25,7 +25,8 @@ main =
                     ]
                 , right =
                     [ firstDropCap
-                    , myParagraph
+
+                    -- , myParagraph
                     ]
                 }
             , footerArea
@@ -143,13 +144,19 @@ overview =
         , Background.color white
         , width (px 420)
         , height (px 200)
-        , Font.size 16
-        , Font.color darkBlue
+
+        -- , Font.size 16
+        -- , Font.color darkBlue
         ]
         [ paragraph
             []
             [ text "This 2-column design was inspired by a repo maintained by " ]
-        , newTabLink [ Font.underline, Font.bold ]
+        , newTabLink
+            [ Font.underline
+            , Font.bold
+            , Font.color darkBlue
+            , Font.size 16
+            ]
             { url = "https://github.com/opsb/cv-elm"
             , label = text "opsb/cv-elm"
             }
@@ -158,23 +165,24 @@ overview =
         ]
 
 
-myParagraph : Element msg
-myParagraph =
-    paragraph
-        [ alignTop
-        , alignLeft
-        , spacingXY 4 200
-        , padding gutter
-        , Background.color white
-        , width (px 420)
-        , height (px 100)
-        , Font.size 16
-        , Font.color darkBlue
-        ]
-        [ text "A plain text element inside a paragraph"
-        , paragraph [ Font.bold ] [ text "Add a paragraph element assigning bold text" ]
-        , el [ Font.italic, alignRight ] (text "λ Add an 'el' with alignRight & italic assigned to text")
-        ]
+
+-- myParagraph : Element msg
+-- myParagraph =
+--     paragraph
+--         [ alignTop
+--         , alignLeft
+--         , spacingXY 4 200
+--         , padding gutter
+--         , Background.color white
+--         , width (px 420)
+--         , height (px 100)
+--         , Font.size 16
+--         , Font.color darkBlue
+--         ]
+--         [ text "A plain text element inside a paragraph"
+--         , paragraph [ Font.bold ] [ text "Add a paragraph element assigning bold text" ]
+--         , el [ Font.italic, alignRight ] (text "λ Add an 'el' with alignRight & italic assigned to text")
+--         ]
 
 
 firstDropCap =
