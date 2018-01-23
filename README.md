@@ -22,9 +22,7 @@ This 2-column design is based on extensive work by Oliver Searle-Barnes, [opsb](
 
 You need to have [Elm](http://elm-lang.org/) 0.18 installed on your machine.
 
-Compile this project with:
-
-    elm make src/Main.elm
+Clone this repo.
 
 Then generate it:
 

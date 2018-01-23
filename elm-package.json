@@ -1,8 +1,8 @@
 {
     "version": "1.0.0",
     "summary": "Experiments using the next version of style-elements for Elm",
-    "repository": "https://github.com/user/project.git",
-    "license": "BSD3",
+    "repository": "https://github.com/jbrgfx/elm-style-elements-experiments.git",
+    "license": "MIT",
     "source-directories": [
         "src"
     ],
