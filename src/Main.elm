@@ -25,8 +25,6 @@ main =
                     ]
                 , right =
                     [ firstDropCap
-
-                    -- , myParagraph
                     ]
                 }
             , footerArea
