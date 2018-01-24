@@ -115,7 +115,7 @@ headerArea =
             , Font.underline
             , alignBottom
             ]
-            { url = "http://package.elm-lang.org/packages/mdgriffith/stylish-elephants/3.0.2"
+            { url = "http://package.elm-lang.org/packages/mdgriffith/stylish-elephants/4.0.0"
             , label = text "stylish-elephants: package docs"
             }
         ]
