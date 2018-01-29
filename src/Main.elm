@@ -158,7 +158,7 @@ firstDropCap =
             , spacingXY 4 100
             , padding 10
             , Font.size 40
-            , Font.lineHeight 1
+            , Font.lineHeight 0.5
             , Font.color darkBlue
             , Background.color white
             ]
@@ -179,10 +179,11 @@ secondDropCap =
         ]
         [ el
             [ alignLeft
+            , alignBottom
             , spacingXY 4 100
             , padding 10
             , Font.size 40
-            , Font.lineHeight 1
+            , Font.lineHeight 0.5
             , Font.color darkBlue
             , Background.color white
             ]
@@ -192,7 +193,18 @@ secondDropCap =
             , Font.color black
             , Font.size 16
             ]
-            [ text "or the time being, the layout width is static. I will add responsive design elements soon." ]
+            [ text "or the time being, the layout width is static in this example. " ]
+        , newTabLink
+            [ Font.bold
+            , Font.underline
+            , Font.size 14
+            , Font.color Color.darkBlue
+            ]
+            { url = "https://github.com/jbrgfx/responsive-stylish-elephants"
+            , label = text "A responsive layout experiment has been begun."
+            }
+
+        -- ]
         ]
 
 
