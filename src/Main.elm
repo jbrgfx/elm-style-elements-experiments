@@ -115,8 +115,8 @@ headerArea =
             , Font.underline
             , alignBottom
             ]
-            { url = "http://package.elm-lang.org/packages/mdgriffith/stylish-elephants/4.0.0"
-            , label = text "stylish-elephants: package docs"
+            { url = "http://package.elm-lang.org/packages/mdgriffith/stylish-elephants/latest/"
+            , label = text "stylish-elephants latest: package docs"
             }
         ]
 
@@ -168,7 +168,7 @@ firstDropCap =
             , Font.color black
             , Font.size 18
             ]
-            [ text "his is a paragraph element using 'DropCap' for the first letter of the paragraph. This example uses a general refactoring approach by which what was a 'StyleSheet' definition in style-elements 4.2.1 is now defined in the experimental version on a parent element and what were 'variations' on the paragraph are defined on the child.  The experimental version is know as 'stylish-elephants.' In this example, an 'el' is the parent and the 'paragraph' is the child.  This technique still works after upgrading to stylish-elephants 4.0.0, but it appears unnecessary in many cases.  The package is getting easier and easier to use as the developer makes changes.  Verson 4.0.0 has removed even more pain points than version 3.0.2." ]
+            [ text "his is a paragraph element using 'DropCap' for the first letter of the paragraph. This example uses a general refactoring approach by which what was a 'StyleSheet' definition in style-elements 4.2.1 is now defined in the experimental version on a parent element and what were 'variations' on the paragraph are defined on the child.  The experimental version is know as 'stylish-elephants.' In this example, an 'el' is the parent and the 'paragraph' is the child.  This technique still works after upgrading to stylish-elephants 6.0.2, but it appears unnecessary in many cases.  The package is getting easier and easier to use as the developer makes changes.  Version 6.0.2 has removed even more pain points than version 5.x." ]
         ]
 
 
