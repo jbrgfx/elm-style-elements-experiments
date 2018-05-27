@@ -6,7 +6,7 @@ Exercise in upgrading 4.2.1 style-elements package in Elm to the new experimenta
 
 This experiment is a refactoring exercise of [style-elements](http://package.elm-lang.org/packages/mdgriffith/style-elements/4.2.1/Style) for Elm, v4.2.1 to the next version of the package.
 Matthew Griffith is actively working on the next version.
-This project is now using the latest version of the experimental package -- that is, version 4.0.0.
+This project is now using the latest version of the experimental package.
 The latest stylish-elephants may be [read at elm-package](http://package.elm-lang.org/packages/mdgriffith/stylish-elephants/latest/).
 
 The new version eliminates "StyleSheets" as they are known in the production package and moves all elements and styles into basic view functions inline.
